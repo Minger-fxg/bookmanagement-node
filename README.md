@@ -1,2 +1,2 @@
-# bookmanagement-node
-图书管理后端
+# PointServer
+积分系统的服务器端
