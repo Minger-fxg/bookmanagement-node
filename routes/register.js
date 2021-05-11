@@ -15,6 +15,16 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
+    let inform = req.body.params;
+    console.log(req);
+
+    let username = inform.newUsername;
+    let password = inform.newPassword;
+    let result = {
+        state: 'success',
+        message: "注册成功!!!您的账号为" + username
+    };
+    res.send(result);
 
 });
 
